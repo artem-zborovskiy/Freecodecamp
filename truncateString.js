@@ -6,7 +6,6 @@ function truncateString(str, num) {
         return str;
     } else {
         str = str.substring(0, num).concat('...');
-        console.log(str);
         return str;
     }
 }
