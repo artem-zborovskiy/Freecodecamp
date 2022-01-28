@@ -4,7 +4,7 @@
 
 function confirmEnding(str, target) {
     let subStr = str.substring(str.length - target.length);
-    return subStr === target ? true : false;
+    return subStr === target;
 }
   
 confirmEnding("Bastian", "n");
